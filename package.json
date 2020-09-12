@@ -1,0 +1,19 @@
+{
+  "name": "babel-playground",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "ashigirl96 <reon@mma.cs.tsukuba.ac.jp>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/generator": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/parser": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/traverse": "^7.11.5",
+    "glob": "^7.1.6"
+  }
+}
